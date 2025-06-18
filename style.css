@@ -1,0 +1,112 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+  background: #121212;
+  color: #eee;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+body.dark form {
+  background: #1e1e1e;
+}
+
+input, textarea, select, button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #5c67f2;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#clear-all {
+  background-color: #ff4e4e;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+#timeline {
+  border-left: 3px solid #5c67f2;
+  padding-left: 20px;
+}
+
+.memory {
+  background: #fff;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 6px;
+  position: relative;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+body.dark .memory {
+  background: #2a2a2a;
+}
+
+.memory img {
+  max-width: 100%;
+  margin-top: 10px;
+  border-radius: 6px;
+}
+
+.memory::before {
+  content: '';
+  position: absolute;
+  left: -11px;
+  top: 20px;
+  width: 12px;
+  height: 12px;
+  background: #5c67f2;
+  border-radius: 50%;
+}
+
+.memory h3 {
+  margin: 0;
+}
+
+.memory small {
+  color: gray;
+}
+
+.memory .category {
+  font-size: 14px;
+  font-weight: bold;
+  color: #5c67f2;
+}
+

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memory Timeline Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 My Memory Timeline</h1>
+
+    <div class="controls">
+      <input type="text" id="search" placeholder="Search by title or date..." />
+      <button id="toggle-dark">🌙 Toggle Dark Mode</button>
+      <button id="export-json">📥 Export JSON</button>
+      <button id="export-txt">📥 Export TXT</button>
+    </div>
+
+    <form id="memory-form">
+      <input type="text" id="title" placeholder="Memory Title" required />
+      <textarea id="description" placeholder="Memory Description" required></textarea>
+      <input type="date" id="date" required />
+      <select id="category">
+        <option value="Personal">Personal</option>
+        <option value="Travel">Travel</option>
+        <option value="School">School</option>
+        <option value="Work">Work</option>
+      </select>
+      <input type="file" id="image" accept="image/*" />
+      <button type="submit">Add Memory</button>
+    </form>
+
+    <div class="actions">
+      <button id="clear-all">🗑 Clear All Memories</button>
+    </div>
+
+    <div id="timeline"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
