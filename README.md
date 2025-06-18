@@ -1,23 +1,23 @@
 # -My-Memory-Timeline
-# 🧠 Memory Timeline Tracker
+#  Memory Timeline Tracker
 
 A personal memory journaling web app built using **HTML, CSS, and JavaScript** that allows users to add, organize, and revisit their special moments on a beautiful timeline interface.
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature         | Description                                                   |
 |-----------------|---------------------------------------------------------------|
-| 🖼 Add Images     | Upload and display an image for each memory                  |
-| 🌙 Dark Mode      | Toggle between light and dark themes                         |
-| 🔍 Search Bar     | Instantly search memories by title or date                   |
-| 🗂 Categories     | Tag your memories with labels like `Travel`, `School`, etc. |
-| 📥 Export         | Download all memories as `.json` or `.txt` file              |
+|  Add Images     | Upload and display an image for each memory                  |
+|  Dark Mode      | Toggle between light and dark themes                         |
+|  Search Bar     | Instantly search memories by title or date                   |
+|  Categories     | Tag your memories with labels like `Travel`, `School`, etc. |
+|  Export         | Download all memories as `.json` or `.txt` file              |
 
 ---
 
-## 📸 Example Memory Entry
+##  Example Memory Entry
 
 > **Title**: Birthday Surprise at Night  
 > **Date**: 2023-09-12  
@@ -27,7 +27,7 @@ A personal memory journaling web app built using **HTML, CSS, and JavaScript** t
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone or Download the Project
 
